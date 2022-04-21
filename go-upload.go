@@ -47,6 +47,7 @@ func upload(c *gin.Context) {
 	}
 
 	filename := header.Filename
+	log.Println("上传了文件: " + filename)
 	out, err := os.Create("public/" + filename)
 	if err != nil {
 		log.Fatal(err)
