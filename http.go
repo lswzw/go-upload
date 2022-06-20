@@ -13,7 +13,7 @@ var html = `
   <input type="file" name="file" />
   <input type="submit" value="上传" />
 </form>
-<form enctype="multipart/form-data" action="/files" method="get">
+<form enctype="multipart/form-data" action="/files/" method="get">
   <input type="submit" value="查看文件" />
 </form>
 </body>
